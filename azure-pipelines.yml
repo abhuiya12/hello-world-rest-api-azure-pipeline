@@ -9,13 +9,13 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'adb1a7d9-26c4-4e00-b8e5-532fb8b02202'
+  azureSubscription: 'fe503540-99a2-40f9-9950-753e6b18a926'
   
   # Web app name
   webAppName: 'hello-world-rest-api-bhuiya'
 
   # Environment name
-  environmentName: 'hello-world-rest-api-bhuiya'
+  environmentName: 'hello-world-rest-api-bhuiya-dev'
   
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
